@@ -1,0 +1,42 @@
+:root {
+    --background: rgb(49, 48, 66);
+    --overlay: rgba(255, 255, 255, 0.267);
+    --text: rgb(238, 238, 238);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+html {
+    @media (max-width: 1080px) {
+        font-size: 93.75%;
+    }
+    @media (max-width: 720px) {
+        font-size: 87.5%;
+    }
+}
+
+body, button, input, select, textarea {
+    font: 400 1rem 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, bold {
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
